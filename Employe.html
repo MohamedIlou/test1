@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                              <!--Material Icons-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Sharp" rel="stylesheet">
+                             <!--Link with Css Page-->
+                             <link rel="stylesheet" href="./Style1.css" > 
+                             <link rel="stylesheet" href="./Style2.css" > 
+                             <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/jquery.dataTables.min.css">
+  </head> 
+
+  <body>
+    <div class="Contenu_employe">
+    <aside>
+        <div class="top">
+            <div class="logo">
+                     <img src="Img.png">
+               <div class="text_Agence" > <h2><span>Agence Urbaine Guelmim </span> </h2> </div>
+            </div>
+            <span class="material-icons-sharp" id="med">
+                close
+            </span>
+        </div>    
+        <div class = "Accueil_Janb">
+         <a href="Learning.html" class="testclass">
+            <span class="material-icons-sharp">
+                space_dashboard
+                </span> 
+                <h2> Accueil </h2>
+          </a>
+          <a href="Formulaire.html">
+                <span class="material-icons-sharp">
+                    description
+                    </span>
+                    <h2>Formulaire</h2>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    email
+                    </span>
+                    <h2>Message</h2>
+                    <span class="Num_msg">15</span>
+            </a>
+            <a href="Employe.html">
+                <span class="material-icons-sharp">
+                    person
+                    </span>
+                    <h2>Employe</h2>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    manage_accounts
+                    </span>
+                    <h2>Parametres</h2>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    leaderboard
+                    </span>
+                    <h2>Statistiques</h2>
+            </a>
+            <a href="#">
+                <span class="material-icons-sharp">
+                    logout
+                    </span>
+                    <h2>Se déconnecter</h2>
+            </a>
+        </div>
+    </aside>
+    <main>
+        <div class="limn">
+            <div class="lfo9_emp">
+               <div class="menu" >
+                   <button>
+                   <span class="material-icons-sharp">
+                       menu
+                       </span>
+                       </button>
+                   
+               </div>
+               <div class="site-mode">
+                   <span class="material-icons-sharp active"> light_mode </span>
+                   <span class="material-icons-sharp"> dark_mode </span>
+                    
+                    
+               </div>
+               
+               <div class="profil">
+                   <div class="info">
+                       <p>Hi <b>Mohamed</b> </p>
+                       <small>Admin</small>
+                   </div>
+                   <div class="profil-image">
+                       <img src="profil-med.jpg">
+                   </div>
+               </div>
+           </div>
+        <div class="txt_emp">
+           <div class="Ajouter_emp">
+                <h1>Tableau Employe</h1>
+                <div class="icone_emp">
+                  
+                        <button>
+                            <span class="material-icons-sharp">
+                                add_circle
+                                </span>
+                          <h4>  Ajouter Un Nouvel Employé </h4>
+                        </button>
+                   
+                </div>
+           </div>
+        </div>
+            <div class="Contenu_table">
+                <table id="myTable" class="display">
+                    <thead>
+                        <tr>
+                            <th>Nom</th>
+                            <th>Prenom</th>
+                            <th>Tel</th>
+                            <th>Email</th>
+                            <th>Grade</th>
+                            <th>Departement</th>
+                            <th>Actions</th>
+                           
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr >
+                           <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Rachid</td>
+                            <td>0606812475</td>
+                            <td>rachidilougui@gmail.com</td>
+                            <td>Metrise</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                            <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Rachid</td>
+                            <td>0606812475</td>
+                            <td>rachidilougui@gmail.com</td>
+                            <td>Metrise</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                            <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Mohamed</td>
+                            <td>0622954535</td>
+                            <td>medilougui@gmail.com</td>
+                            <td>Cadre Supérieur</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                             <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Rachid</td>
+                            <td>0606812475</td>
+                            <td>rachidilougui@gmail.com</td>
+                            <td>Metrise</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                            <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Rachid</td>
+                            <td>0606812475</td>
+                            <td>rachidilougui@gmail.com</td>
+                            <td>Metrise</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                            <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        <tr >
+                            <td>Ilougui</td>
+                            <td>Rachid</td>
+                            <td>0606812475</td>
+                            <td>rachidilougui@gmail.com</td>
+                            <td>Metrise</td>
+                           <td>Informatique</td>
+                           <td><span class="material-icons-sharp"> edit </span> 
+                            <span class="material-icons-sharp"> delete </span> </td> 
+                        </tr>
+                        
+                    </tbody>
+                </table>
+        </div>
+     </main>
+     
+</div>
+                
+
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>               
+ <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+
+<script>
+$(document).ready(function() {
+    $('#myTable').DataTable( {
+        language: {
+            url: 'https:////cdn.datatables.net/plug-ins/1.11.5/i18n/fr-FR.json'
+        }
+    } );
+} );
+</script>
+
+
+  </body>
+</html>                        
+      
