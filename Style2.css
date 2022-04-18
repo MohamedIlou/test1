@@ -1,0 +1,149 @@
+.Contenu_employe{
+    display: grid;
+    margin: 0 auto ;
+    width: 98%;
+    grid-template-columns: 20rem auto; }     
+
+    .Contenu_employe .Contenu_table{
+     margin: 31px;
+    margin-top: 1rem;
+    width: 98%;
+    background: white;
+    border-radius: 1rem;
+    }
+    .txt_emp{
+        margin-top: 1rem;
+    }
+    .txt_emp .Ajouter_emp{
+        display: flex;
+        align-items: baseline;
+        justify-content: space-between;
+    }
+    .txt_emp .Ajouter_emp .icone_emp button{
+        border: none;
+        border-radius: 7px;
+        display: flex;
+        align-items: center;
+        gap: 9px;
+        cursor: pointer;
+        font-size: 20px;
+        width: 254px;
+        height: 40px;
+        background: rgba(132, 139, 200, 0.18);
+        color: #7380ec;
+        justify-content: center;
+    }
+  button h4{
+    font-size: 15px;
+    font-family: poppins , sans-serif;
+    font-weight: 500;
+   }
+   .txt_emp .Ajouter_emp .icone_emp button:hover {
+
+    background: rgba(132, 139, 200, 0.18);
+    color: #737fece3;
+    
+   }
+
+   .limn .lfo9_emp{
+        display: flex;
+        justify-content: end;
+        gap: 2rem;
+        margin-top: -35px;
+   }
+   .limn .lfo9_emp .menu {
+    visibility: hidden;
+   }
+   .dataTables_wrapper {
+    text-align: center; 
+   }
+ 
+main .Formm {
+    background: white;
+    margin: 2rem;
+    padding: 2rem;
+    border-radius: 3rem;
+    display: flex;
+    justify-content: center;
+}
+form .class-emp .input_nom {
+    width: 39rem;
+    height: 2rem;
+    margin-left: 4rem;
+    border: 1.9px solid #0052a1;
+    border-radius: 11px;
+    outline: none;
+    letter-spacing: 0.5px;
+    text-align: 5px;
+    padding-left: 6px;
+}
+form label {
+    font-size: 18px;
+    font-weight: 500;
+}
+form .Prenom-emp .input_prenom {
+    width: 39rem;
+    height: 2rem;
+    margin-left: 2rem;
+    border: 1.9px solid #0052a1;
+    border-radius: 11px;
+    outline: none;
+    letter-spacing: 0.5px;
+    text-align: 5px;
+    padding-left: 6px;
+}
+form .Tel-emp .input_tel {
+    width: 39rem;
+    height: 2rem;
+    margin-left: 75px;
+    border: 1.9px solid #0052a1;
+    border-radius: 11px;
+    outline: none;
+    letter-spacing: 0.5px;
+    text-align: 5px;
+    padding-left: 6px;
+}
+form .Email-emp .input_email {
+    width: 39rem;
+    height: 2rem;
+    margin-left: 51px;
+    border: 1.9px solid #0052a1;
+    border-radius: 11px;
+    outline: none;
+    letter-spacing: 0.5px;
+    text-align: 5px;
+    padding-left: 6px;
+}
+form .btn_form {
+    margin-top: 3rem;
+    margin-left: 22rem;
+    display: inline-flex;
+    gap: 1.4rem;
+}
+
+form .btn_form .btn-creer {
+    border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 254px;
+    height: 40px;
+    background: rgba(132, 139, 200, 0.18);
+    color: #7380ec;
+    display: inline-flex;
+    justify-content: center;
+    margin-left: -12.5rem;
+}
+form .btn_form .btn-annuler {
+     border: none;
+    border-radius: 7px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 254px;
+    height: 40px;
+    background: rgba(132, 139, 200, 0.18);
+    color: #7380ec;
+    display: inline-flex;
+    justify-content: center;
+}
+

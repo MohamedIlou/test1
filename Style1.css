@@ -1,0 +1,540 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+html{
+    font-size: 14px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    font-family: poppins , sans-serif ;
+    font-size: 0.88rem;
+    background: #f6f6f9;
+    user-select: none;
+    overflow-x: hidden;
+    
+}
+                                                                      /*  -------------------------------- Body Active Dark Mode  -------------------------------- */
+body.active {
+    background: #181a1e;
+}
+
+body.active h1{
+    color: #edeffd;
+}
+body.active main .lwsst >div {
+    background: #202528;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+   
+}
+body.active h2{
+    color: #edeffd;
+}
+body.active b{
+    color: #edeffd;
+}
+body.active p{
+    color: #edeffd;
+}
+body.active small{
+    color: #edeffd;
+    text-align: center;
+}
+
+body.active main .lwsst small {
+    color: #edeffd;
+}
+body.active .lwsst span {
+    color: #7380ec;
+}
+body.active main .tab_emp table{
+    background: #202528;
+    box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+}
+
+body.active aside{
+    background: #181a1e;
+    box-shadow: none;
+}
+body.active aside .text_Agence h2 {
+    color: #e7e5f6;
+}
+body.active main .lwsst div:hover{
+    box-shadow: none;
+}
+
+
+                                                                    /*  -------------------------------- Body Active Dark Mode  -------------------------------- */
+aside.active {
+background-color: red;
+}
+
+a{
+    color: #363949;
+    text-decoration: none;
+}
+img{
+    display: block;
+    width: 100%;
+}
+h2{
+    font-size: 1.4rem;
+}
+.Contenu{
+    display: grid;
+    margin: 0 auto ;
+    width: 98%;
+    grid-template-columns: 20rem auto 37rem;
+    
+    
+}
+aside{
+      height: 100vh;
+}
+aside .top{
+    /*background: white; */
+    margin-top: 1.4rem ;
+    display: flex;
+    align-items: center;
+    /*justify-content: space-between;*/
+  
+}
+aside .logo img{
+    width: 130px ;
+    height: 150px;
+    padding-top: 0.2cm;
+    padding-bottom: 0.2cm;
+}
+aside .logo{
+    display: flex;
+}
+aside .text_Agence h2{
+    font-size : 1.5rem;
+    text-align: center;
+    padding-top: 0.8cm;
+    color: red;
+}
+
+aside .Accueil_Janb{
+   /* background: white; */
+    /*display: flex;
+    flex-direction: column;*/
+    height: 72vh;
+   position: relative; 
+    top: 3rem;
+}
+aside .Accueil_Janb a{
+    display: flex;
+    color: #7d8da1;
+    margin-left: 2rem;
+    gap: 1rem;
+    align-items: center;
+    position: relative; 
+    height: 3.7rem;
+    transition: all 300ms ease;
+    
+    
+}
+aside .Accueil_Janb h2{
+    font-weight: 500 ;
+    font-size: 1.2rem;
+    
+}
+.Accueil_Janb a:last-child{
+    position: relative;
+    top: 27rem
+}
+aside .Accueil_Janb .testclass{
+    background: rgba(132, 139, 200, 0.18) ;
+    color: #7380ec;
+    margin-left: 0;
+}
+aside .Accueil_Janb .testclass::before{
+    content: "";
+    width: 6px;
+    height: 100%;
+    background:#7380ec ;
+}
+aside .Accueil_Janb .testclass span{
+    color:#7380ec ;
+    margin-left: 0.5rem;
+}
+aside .Accueil_Janb a span{
+    transition: all 300ms ease;
+   font-size: 1.6rem;
+}
+aside .Accueil_Janb a:hover{
+    color:#7380ec ;
+}
+aside .Accueil_Janb a:hover span{
+    margin-left: 1rem;
+}
+aside .Accueil_Janb .Num_msg{
+    font-weight: 500 ;
+    font-size: 1.3rem;
+    background: #ff7782;
+    color: white;
+    padding: 2px 10px;
+   border-radius: 0.4rem;
+}
+
+                                               /* -------- lwsst ------------- */
+     main{
+         margin-top: 1.8rem;
+     }         
+     main .lwsst{
+         display: grid;
+         grid-template-columns: repeat(3,1fr) ;
+         margin-left: 2rem;
+         margin-top: 4rem;
+         gap: 1.2rem;
+         
+     }
+     main .lwsst >div{
+         background : white;
+         padding: 1.8rem;
+         border-radius: 2rem; 
+         box-shadow: 0 2rem 3rem rgba(132, 139, 200, 0.18);
+         transition: all 300ms ease;
+     }   
+                                      
+     main .lwsst div:hover{
+         box-shadow: none;
+     }
+     main .lwla span{
+         color: #ff7782;
+         font-size: 50px;
+        
+        margin-left: 16rem;
+        position: relative;
+        bottom: 3rem;
+     }
+     
+    main h2{
+       
+        font-size: 50px;
+        float: left;
+        position: relative;
+        top: 1.8rem;
+        left: 1.5rem;
+    }
+    main .tanya span{
+         color: #ff7782;
+         font-size: 50px;
+        
+        margin-left: 16rem;
+        position: relative;
+        bottom: 3rem;
+     }
+     main .talta span{
+        color: #ff7782;
+        font-size: 50px;
+       
+       margin-left: 16rem;
+       position: relative;
+       bottom: 3rem;
+    }
+    main .lwsst small{
+        font-size: 20px;
+    color: #363949;
+    }
+    main h1{
+       margin-left: 4rem;
+       margin-top: 4rem;
+    }
+    main .texto{
+        margin-top : 0rem;
+    }
+    main .tab_emp h1{
+        margin-bottom: 2rem;
+    margin-top: 2rem;
+       
+    }
+    main .tab_emp table{
+    background: white;
+    width: 98%;
+    border-radius: 2rem;
+    padding: 1.8rem;
+    text-align: center;
+    box-shadow: 0 2rem 3rem rgb(132 139 200 / 18%);
+    transition: all 300ms ease;
+    margin: 2rem;
+    }
+    main .tab_emp table:hover{
+        box-shadow: none;
+    }
+    main table tbody td{
+        height: 2.8rem;
+        border-bottom: 1px solid rgb(132 139 200 / 18%);
+        color: #677483;
+        
+    }
+    main .tab_emp tbody tr:last-child td{
+        border: none;
+    }
+    main .tab_emp a{
+        text-align: center;
+        font-size: 0.6rem;
+       color: #7380ec;
+    }
+    .limn .profil-image{
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 50%;
+        overflow: hidden;
+    }
+    .limn{
+        margin-top: 1.4rem;
+    }
+    .limn .lfo9{
+        
+         display: flex;
+         justify-content: end;
+         gap: 2rem;
+    }
+    .limn .lfo9 button{
+        display: none;
+        
+    }
+
+
+
+
+
+
+
+    .limn .site-mode{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 1.6rem;
+    width: 4.2rem;
+    cursor: pointer;
+    background: rgb(132 139 200 / 18%); ;
+    border-radius: 0.4rem;
+    }
+    .limn .site-mode span{
+     font-size: 1.5rem;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    .limn .site-mode .active{
+        background: #7380ec;
+        border-radius: 0.4rem;
+        color: white;
+    }
+    .limn .profil{
+        display: flex;
+        gap: 2rem;
+        text-align: center;
+    }
+    .newemploye .contenu-limn img{
+        width: 2.8rem;
+        height: 2.8rem;
+        border-radius: 50%;
+        overflow: hidden; 
+    }
+    .newemploye{
+        background-color: white;
+        width: 90%;
+        border-radius: 2rem;
+        padding: 1.4rem;
+        margin-top: 23.5rem;
+        margin-left: 1rem;
+       
+    }
+    .txt-emp{
+        position: relative;
+        top: 22rem;
+        left: 2rem;
+
+    }
+   
+                                                             /* -------- Compatible Bootstrap ------------- */
+     @media screen and (max-width : 1200px){
+        .Contenu{
+            
+            width: 94%;
+            grid-template-columns: 7rem auto 23rem;
+        }
+        aside .text_Agence h2 {
+            display: none;
+        }
+        aside .Accueil_Janb h2 {
+            display: none;
+        }
+        aside .Accueil_Janb a {
+            width: 5.6rem;
+        }
+        .Accueil_Janb a:last-child {
+            position: relative;
+            top: 0.2rem;;
+        }
+        aside .Accueil_Janb .Num_msg {
+            padding: 1px 5px;
+        }
+        main .lwsst{
+            grid-template-columns: 1fr;
+        }
+        main .lwsst  h2 {
+            margin-top: -2.5rem
+        }
+        main .lwsst  span {
+            top: 1.2rem;
+            left: 14rem;
+        }
+        aside .logo img {
+                width: 100px;
+                height: 106px;
+        }
+        main .tab_emp {
+                width: 94%;
+                position: absolute;
+                left: 50%;
+                transform: translateX(-50%);
+                margin: 2rem 0 0 8.8rem;
+            }
+            main table thead tr th:last-child{
+                display: none;
+            }
+            main table tbody tr td:last-child{
+                display: none;
+
+     }
+
+     @media screen and (max-width : 1075px){
+        main .lwsst  span {
+            top:  1rem;
+             left: 1.4rem; }
+        }
+    }
+
+     @media screen and (max-width : 875px){
+        main .lwsst  span {
+            top: -1rem;
+             left: 0.9rem;
+            }
+        }
+
+        @media screen and (max-width : 768px){
+           
+            .Contenu{
+                width: 100%;
+                
+            }
+            aside{
+                position: fixed;
+                left: -100%;
+                background-color: white;
+                width: 18rem;
+                z-index: 3;
+               box-shadow: 1rem 3rem 4rem rgba(132, 139, 200, 0.18) ; 
+               padding-right: 1.8rem;
+               display: none;
+               animation: ShowMenu 400ms ease forwards;
+               
+            }
+            @keyframes ShowMenu {
+                to{
+                    left :0;}
+                }   
+            
+           /* .aside2{
+                    animation : CloseMenu 300 ms ease forwards ;
+            }
+            @keyframes CloseMenu {
+                to{
+                    right: 100 ;}
+                } */  
+            
+            aside .logo h2{
+                
+                margin-left: 1rem;
+            }
+            aside .Accueil_Janb h2{
+                display: inline;
+            }
+            aside .Accueil_Janb a{
+                width: 100%;
+                height: 3.4rem;
+            }
+            aside .Accueil_Janb a:last-child{
+                position: absolute;
+                top: 40rem;
+            }
+            aside #med{
+                cursor: pointer;
+            }
+            aside .logo img {
+                width: 184px;
+                 height: 186px;
+                 margin-right: 4rem;
+                 position: relative;
+                 left: 2rem;
+            }
+            main{
+                margin-top: 7rem;
+                padding: 0 1rem;
+            }
+            main .tab_emp {
+                position: relative;
+                 margin: 2rem 0 0 0;
+            }
+            main .tab_emp h1{
+                inline-size: max-content;
+            }
+            main .tab_emp table {
+                width: 100%;
+                margin: 0px;
+            }
+    .limn .lfo9 {
+    background: white;
+    width: 100%;
+    position: fixed;
+    left: 0rem;
+    align-items: center;
+    top: 1.4px;
+    box-shadow: 0rem 1rem 1rem rgb(132 139 200 / 18%);
+    
+    padding-bottom: 0.5rem;
+            } 
+            .limn .lfo9 .site-mode {
+                width: 4.4rem;
+                position: absolute;
+                right: 13rem;
+            }
+            .limn .lfo9 .profil .info {
+    text-align: center;
+    padding: 0rem;
+    margin-top: 0rem;
+    position: absolute;
+    right: 66px;
+    top: 5px;
+            }
+            .limn .lfo9 button {
+                background: transparent;
+                display: inline-block;
+                cursor: pointer;
+                color: #363949;
+                position: absolute;
+                left: 1rem;
+                border: none;
+                bottom: 11px;
+            }
+            .limn .lfo9 button span{
+            font-size: 2rem;}
+            body.active .limn .lfo9 {
+                background: #202528;
+                box-shadow: 0 2rem 3rem rgba(0, 0, 0, 0.4);
+            }
+            }
+            
+            
+
+                                                  
